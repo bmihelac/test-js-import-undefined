@@ -5,8 +5,11 @@
   "env": {
   },
   "parser": "babel-eslint",
+  "plugins": ["import"],
   "rules": {
+    "import/no-unresolved": [2],
+    "import/namespace": [2],
     "no-undef": 2,
     "no-unused-vars": [2, {"vars": "all", "args": "none"}]
-  },
+  }
 }

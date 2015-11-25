@@ -1,3 +1,4 @@
+/* global console */
 import * as types from './actionTypes';
 
 export default function pouchdbReducer(state = {}, action) {
