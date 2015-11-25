@@ -1,0 +1,14 @@
+{
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-undef": 2,
+    "no-unused-vars": [2, {"vars": "all", "args": "none"}]
+  },
+}
